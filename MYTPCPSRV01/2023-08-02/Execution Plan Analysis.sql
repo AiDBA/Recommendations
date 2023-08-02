@@ -1,0 +1,8 @@
+
+/* 
+This Query has been Tuned by Ai-DBA Query Optimizer (v1.4.0.0).
+Copyright (C) 2019-2023 Fard Technology Corp., all rights reserved.
+Date: 8/2/2023 11:37:55 AM UTC
+*/
+BEGIN TRY     CREATE NONCLUSTERED INDEX AIDBA_NCIX_230802113758 ON [SPRITZERTAIPINGDWH].[DBO].[DWH_COND_MON] ([VALUE],[TIMESTAMP]) INCLUDE ([POSITION],[VARIABLE]) ;
+ END TRY BEGIN CATCH END CATCH;
