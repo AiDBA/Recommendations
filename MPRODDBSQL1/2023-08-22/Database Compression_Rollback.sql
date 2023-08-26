@@ -1,0 +1,22 @@
+ALTER INDEX [IX_HimHatchTransDetail] ON [MTECH_v7_PRODUCTION].[mtech].[HimHatchTransDetail] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_HimHatchTransDetail_2] ON [MTECH_v7_PRODUCTION].[mtech].[HimHatchTransDetail] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_HimHatchTransDetail_ExternalId] ON [MTECH_v7_PRODUCTION].[mtech].[HimHatchTransDetail] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_20_20220401] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_10] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_11] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_12] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_14] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_ProteinEntitiesIRN_xDate] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_ProteinFacilityFeedMillsIRN_xDateTime_FmimFeedTransOrdersIRN] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_ProteinFarmsIRN_RecordType_EntityHistoryFlag] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_RecordType_EntityHistoryFlag] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_RefNo_LoadNo_ProteinFacilityFeedMillsIRN_xDate] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_9] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_DTA_2] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_ExternalId] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_FmimFeedTransferIRN_HaulbackTransferDest] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_FmimFeedTransIRN_Src] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_LastModRepDate] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_FmimFeedTrans_22] ON [MTECH_v7_PRODUCTION].[mtech].[FmimFeedTrans] REBUILD WITH (DATA_COMPRESSION=NONE);
+						
