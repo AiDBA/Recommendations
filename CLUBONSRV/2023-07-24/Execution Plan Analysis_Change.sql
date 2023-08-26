@@ -1,0 +1,8 @@
+
+/* 
+This Query has been Tuned by Ai-DBA Query Optimizer (v1.4.0.0).
+Copyright (C) 2019-2023 Fard Technology Corp., all rights reserved.
+Date: 7/24/2023 9:14:26 AM UTC
+*/
+BEGIN TRY     CREATE UNIQUE INDEX [IX_AIDBA_PK_INVGOODSSOLDHEADER] ON [CMS].[DBO].[INVGOODSSOLDHEADER] ([DOCUMENTID],[PROPERTYID]) WITH (DROP_EXISTING=OFF );
+ END TRY BEGIN CATCH END CATCH;
