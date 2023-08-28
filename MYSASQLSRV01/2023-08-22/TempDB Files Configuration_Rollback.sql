@@ -1,0 +1,3 @@
+
+ALTER DATABASE [tempdb] ADD FILE (NAME=N'tempdev', FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL14.SQLSCADA\MSSQL\DATA\tempdb.mdf' ,SIZE=8MB TO FILEGROUP [PRIMARY]
+			
