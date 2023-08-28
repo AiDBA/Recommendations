@@ -1,0 +1,26 @@
+ALTER INDEX [IDX_Deleted_Objects] ON [VeeamOne].[reporter].[Object] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_1_20220908] ON [VeeamOne].[reporter].[Object] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_1_20220926] ON [VeeamOne].[reporter].[Object] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_3_20220830] ON [VeeamOne].[reporter].[Object] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_ObjectProperty_Alive] ON [VeeamOne].[reporter].[ObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_ObjectProperty_Relations] ON [VeeamOne].[reporter].[ObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_12_20220830] ON [VeeamOne].[reporter].[ObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [PK_ObjectProperties] ON [VeeamOne].[reporter].[ObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_SessionLog] ON [VeeamOne].[reporter].[SessionLog] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_ObjectTypeID] ON [VeeamOne].[reporter].[VISessionTree] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [INDX_ObjectEntity_CollectorIdEntityKeyHash] ON [VeeamOne].[reporting].[ObjectEntity] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_8_20220830] ON [VeeamOne].[reporting].[ObjectEntity] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_ObjectEntity_IsDeleted_EntityTypeId] ON [VeeamOne].[reporting].[ObjectEntity] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_EntityId] ON [VeeamOne].[reporting].[ObjectEntityRelations] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [INDX_ObjectEntityPropertyValue_EntityIdEntityPropertyTypeId] ON [VeeamOne].[reporting].[ObjectEntityPropertyValue] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_ObjectEntityPropertyValue_EntityId_IsDeleted] ON [VeeamOne].[reporting].[ObjectEntityPropertyValue] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_ObjectEntityPropertyValue_Value] ON [VeeamOne].[reporting].[ObjectEntityPropertyValue] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_AIDBA_17_20220830] ON [VeeamOne].[monitor].[PerfSampleMed] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IX_PerfSampleMed] ON [VeeamOne].[monitor].[PerfSampleMed] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_LatestObjectProperty_ObjectPropertyValue] ON [VeeamOne].[reporter].[LatestObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_LatestObjectProperty_ParentToObject] ON [VeeamOne].[reporter].[LatestObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_LatestObjectPropertyObjectID] ON [VeeamOne].[reporter].[LatestObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_LatestObjectPropertyObjType] ON [VeeamOne].[reporter].[LatestObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_LatestObjectPropertyParentID] ON [VeeamOne].[reporter].[LatestObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						ALTER INDEX [IDX_LatestObjectPropertyParentType] ON [VeeamOne].[reporter].[LatestObjectProperty] REBUILD WITH (DATA_COMPRESSION=NONE);
+						
